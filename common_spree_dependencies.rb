@@ -4,6 +4,8 @@
 source 'https://rubygems.org'
 
 gem 'coffee-rails'
+gem 'friendly_id', git: 'https://github.com/norman/friendly_id' # temporary hack to make it work with rails 5.2.0
+
 gem 'sass-rails'
 gem 'sqlite3', platforms: [:ruby, :mingw, :mswin, :x64_mingw]
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
